@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+}
+.main{
+    width: 87.3%;
+    margin: 50px auto;
+}
+.main .vernagir{
+    color: blanchedalmond;
+    text-align: center;
+    margin: 40px 0 ;
+}
+.main .vernagir h1{
+    font-size: 70px;
+}
+.main .marmin{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    color: dimgray;
+}
+.main .marmin hr{
+    width: 6%;
+    margin: 20px auto;
+}
+.main .marmin .p1{
+    padding: 0px 50px;
+    margin-top: 80px;
+    text-align: left;
+}
+.main .marmin .p2{
+    padding: 0px 50px 50px;
+    margin-top: 25px;
+    text-align: left;
+}
+.main .marmin h3{
+    color: black;
+}

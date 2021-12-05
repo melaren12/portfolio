@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(58, 69, 153, 0.80);
+    box-shadow: 0 4px 8px 0 rgba(58, 69, 153, 0.40), 0px 10px 20px 0 rgba(58, 69, 153, 0.60);
+}
+h2{
+    font-family: 'Lato', sans-serif;
+}
+.menu{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu img{
+    width: 100px;
+    border-radius: 60%;
+    box-shadow: 0 4px 8px 0 rgba(22, 23, 34, 0.3), 0px 10px 20px 0 rgba(24, 24, 27, 0.5);
+}
+ul{
+    margin: auto 0;
+}
+li{
+    color: seashell;
+    display:inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+li:hover{
+    background-color: rgba(58, 69, 153, 0.60);
+    border-radius: 5px;
+}
+.about{
+    width: 70%;
+    margin: 60px auto;
+    padding: 10px;
+    display: flex;
+    background-color: rgba(58, 69, 153, 0.40);
+    box-shadow: 0 10px 8px 0 rgba(58, 69, 153, 0.30), 0px -10px 10px 10px rgba(58, 69, 153, 0.50);
+}
+.me{
+    flex: 1;
+}
+.me img{
+    width: 100%;
+    border-radius: 5px;
+}
+.text h2,h6{
+    text-align: center;
+    letter-spacing: 5px;
+}
+.text{
+    padding: 0 50px;
+    color: #c7c2c2!important;
+    line-height: 1.8;
+    flex: 1;
+}
+.text p{
+    font-size: 18px!important;
+}
+.p1{
+    margin: 0 0 20px;
+}
+@media (max-width:900px){
+    .about img{
+        width: 200px;
+        height: 300px;
+    }
+}
+.contact{
+    width: 70%;
+    padding: 10px;
+    background-color: rgba(58, 69, 153, 0.40);
+    box-shadow: 0 10px 8px 0 rgba(58, 69, 153, 0.30), 0px -10px 10px 10px rgba(58, 69, 153, 0.50);
+    margin: 50px auto;
+    color: #c7c2c2!important;
+}
+.h2{
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 2px solid rgba(23, 27, 59, 0.9);
+}
+.contact2{
+    display: flex;
+}
+.cont{
+    flex: 1;
+}
+.contact h4,p{
+    display: inline-block;
+    padding: 10px 0;
+}
+.social{
+    flex: 1;
+}
+.social img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px 20px;    
+    float: right;
+}
+.myprojects{
+    width: 70%;
+    padding: 10px;
+    background-color: rgba(58, 69, 153, 0.40);
+    box-shadow: 0 10px 8px 0 rgba(58, 69, 153, 0.30), 0px -10px 10px 10px rgba(58, 69, 153, 0.50);
+    margin: 60px auto;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #c7c2c2!important;
+}
+.myprojects h2{
+    padding: 5px 0;
+    border-bottom: 2px solid rgba(23, 27, 59, 0.9);
+}
+.projects{ 
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px; 
+    margin-top: 20px;  
+}
+.projects2{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px; 
+    margin-top: 20px; 
+}
+/*.proj1{
+    grid-column-start: 2;
+}*/
+.proj{
+    border-radius: 5px; 
+    position: relative;
+}
+.proj img{
+    width: 100%;
+    cursor: pointer;
+}
+.pagehover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(180, 183, 206, 0.5);
+    display: block;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+.pagehover h4{
+    padding-top: 25%;
+    font-size: 36px;
+    color: rgb(36, 31, 73);
+}
+.proj:hover .pagehover{
+    display: block;
+}
+footer{
+    background-color: rgba(56, 56, 121,0.30);
+    box-shadow:  0px 0px 10px 10px rgba(58, 69, 153, 0.50);
+    text-align: center;
+    color: #a8a4a4!important;
+}

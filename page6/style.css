@@ -1,0 +1,91 @@
+*{
+	margin:0;
+	padding:0;
+}
+header{
+	background-image:url("image.png");
+	height:400px;
+	position:relative;
+}
+body{
+	--i:100px;
+}
+.glxavormenu{
+	width: 100%;
+	position: relative;
+}
+.menu{
+	width:100%;
+	background-color:black;
+}
+ul{
+	width:60%;
+	margin:0 auto;
+	padding:10px 0;
+}
+li{
+	color:white;
+	padding:0 10px;
+	display:inline-block;
+	border-right:1px solid;
+}
+.menu2{
+	width:100%;
+	padding:10px 0;
+	background-color:white;
+	position:relative;
+}
+.menu2 h2{
+	width:60%;
+	margin:0 auto;
+}
+.social{
+	position:absolute;
+	right:5%;
+	top:1%;
+}
+.logo{
+	position:absolute;
+	top:0;
+	left: var(--i);
+}
+.krish{
+	padding:10px 0;
+	width:100%;
+	border-bottom:1px solid #cccccc;	
+}
+.krish2{
+	padding:3px 0;
+	width:50%;
+	margin:0 auto;
+	display:flex;
+}
+section{
+	width:100%;
+	position:relative;
+	border-bottom:1px solid #cccccc;
+}
+.photo{
+	position:absolute;
+	top:-120px;
+	left: var(--i);
+}
+.mec{
+	width:80%;
+	margin:20px auto;
+	display:grid;
+	grid-template-columns:repeat(2,45%);
+	column-gap:10%;
+}
+.text p{
+	margin-top:10px;
+}
+.pro{
+	display:grid;
+	grid-template-columns:repeat(3,auto);
+}
+footer{
+	padding:15px 0;
+	text-align:center;
+}
+

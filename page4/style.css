@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    position: relative;
+}
+.bg{
+    width: 100%;
+    height: 700px;
+}
+.top{
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    width: 80%;
+}
+.right{
+    float: right;
+    cursor: pointer;
+}
+.left{
+    cursor: pointer;
+}
+.text{
+    position: absolute;
+    top: 200px;
+    left: calc(100%/3.23);
+    text-align: center;
+    font-size: 28px;
+}
+.text span{
+    background-color: #baf9f4;
+}
+.text p{
+    text-shadow: 2px 4px #d3d3d3;
+}
+.text button{
+    margin-top: 90px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.back{
+    width: 100%;
+    background-color: #f8fafa;
+}
+.about{
+    width: 80%;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about p{
+    opacity: 0.60;
+}
+.mec{
+    margin-top: 50px;
+    display: flex;
+}
+.nkar{
+    flex:1;
+}
+.text2{
+    padding-top: 30px;
+    padding-left: 70px;
+    flex:1;
+    text-align: left;
+}
+.text2 p{
+    opacity: 0.60;
+}
+.p1{
+    margin-top: 20px;
+}
+.p2{
+    margin: 20px 0;
+}
+.h2{
+    margin-bottom: 20px;
+}
+.works{
+    width: 80%;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.works p{
+    opacity: 0.60;
+}
+.nkarner{
+    margin-top: 50px;
+}
+.nkarner img{
+    width: 300px;
+}
+.services{
+    width: 80%;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.services p{
+    opacity: 0.60;
+}
+.nkarner2{
+    margin-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+.div1,.div2,.div3{
+    display: flex;   
+    height: 300px;
+    margin-top: 10px;
+}
+.long{
+    flex: 1.3;
+}
+.short{
+    flex: 1;
+}
+.small{
+    width: 80%;
+    padding-top: 20px;
+    margin: 50px auto;
+    text-align: center;
+}
+.small p{
+    opacity: 0.60;
+}
+.nkarner3{
+    margin-top: 50px;
+}
+.nkarner3 img{
+    width: 300px;
+    height: 350px;
+}
+.mec2{
+    margin-top: 50px;
+    display: flex;
+}
+.nkar2{
+    flex:1;
+}
+.rightdiv{
+    flex:1;
+    text-align: center;
+    margin-top: 45px;
+    position: relative;
+}
+.text3{
+    padding: 100px 50px 50px; 
+    background-color: #eaebed;
+}
+.text3 h2{
+    display: inline;
+}
+.text3 span{
+    opacity: 0.60;
+}
+.text3 p{
+    margin-top: 50px;
+    opacity: 0.70;
+}
+.text3 img{
+    margin-top: 40px;
+}
+.slaq{
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+}
+.logos{
+    width: 90%;
+    margin: 60px auto;
+}
+.logos img{
+    width: 100%;
+}
+.bg{
+    width: 100%;
+    background-image: url("christmas.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.mec3{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.form{
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #495862;
+}
+.form input{
+    color: white;
+    background-color: #495862;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: solid 1px;
+}
+.form button{
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #6eeee4;
+    cursor: pointer;
+}
+.message{
+    padding-bottom: 50px;
+}
+.location{
+    flex: 1;
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #495862;
+    color: #b8bec2;
+}
+.web{
+    margin-top: 20px;
+}
+.location img{
+    width: 100%;
+    margin-top: 15px;
+}
+.footerbottom{
+    padding: 50px 0;
+    color: #7d8082;
+    width: 100%;
+    background-color: #262b2e;
+    text-align: center;
+}
+.footerbottom img{
+    margin: 15px 0 30px;
+}
